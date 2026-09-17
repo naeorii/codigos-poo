@@ -48,6 +48,6 @@ public class Aluno {
     }
     
     public boolean estaAprovado() {
-        return calcularMedia() <= 7.0;
+        return calcularMedia() >= 7.0;
     }
 }
